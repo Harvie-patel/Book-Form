@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Book Form</title>
+        <link rel="stylesheet" href="BookForm.css">
+    </head>
+    <body>
+        <div class="box1">
+        <u>
+        <h1>Book Form.</h1>
+        </u>
+        </div>
+        <div class="box2">
+        <h3>Title:</h3><input class="userinput" name="title" id="Donations" placeholder="Title here:" type="text"><br>
+        <h3>Author:</h3><input class="userinput" placeholder="Author here:" type="text"><br>
+        <h3>Select The Genre:</h3>
+
+        <input name="Genre" value="horror" type="radio">
+        <label class="radio" for="Genre">
+            Horror
+        </label>
+        <input name="Genre" value="fantasy" type="radio">
+    
+        <label class="radio" for="Genre">
+            Fantasy
+        </label>
+        <input name="Genre" value="fiction" type="radio">
+
+        <label class="radio" for="Genre">
+            Fiction
+        </label>
+        <input  name="Genre" value="sci-fi" type="radio">
+        
+        <label class="radio" for="Genre">
+            Sci-fi
+        </label>
+        <input  name="Genre" value="suspense" type="radio">
+        
+        <label class="radio" for="Genre">
+            Suspense
+        </label>
+        <input  name="Genre" value="other" type="radio">
+
+        <label class="radio" for="Genre">
+            Other
+        </label><br>
+
+        <label for="address">Summarise:</label>
+        <textarea class="textarea">
+            Sumarise here..
+        </textarea><br><br>
+        
+        <a href="BookForm2.html"><button class="Submit" onclick="CalcuateScore()">Submit</button></a>
+        </div>
+
+        <div class="footer"><marquee><h2>This Website was made by Harvie Patel</h2></marquee></div>
+    </body>
+    <script src="BookForm.js"></script>
+</html>

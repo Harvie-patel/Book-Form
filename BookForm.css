@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Fascinate&family=Gideon+Roman&family=Great+Vibes&family=Lilita+One&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Luckiest+Guy&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Praise&family=Roboto&family=Rubik+Moonrocks&family=Tangerine:wght@400;700&display=swap');
+
+body{
+    font-family: 'Fascinate', cursive;
+    padding: 10px;
+    background: linear-gradient(#a8ff78,#78ffd6);
+    color: darkgreen;
+    text-align: center;
+}
+
+.box1{
+    background-color: limegreen;
+    padding: 5px;
+    border: solid;
+    border-color: green;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.box2{
+    background-color: lightgreen;
+    padding: 5px;
+    border: solid;
+    border-color: yellowgreen;
+    border-radius: 5px;
+}
+
+.userinput{
+    padding: 5px;
+    border-color: darkgreen;
+    border-bottom: darkgreen;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+}
+
+.radio{
+    margin-right: 20px;
+}
+
+.submit{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: 'Lilita One', cursive;
+    background-color: lime;
+    color: darkgreen;
+    border-color: darkolivegreen;
+}
+
+.arrow{
+    margin-top: 100px;
+}
+
+.textarea{
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: limegreen;
+    padding: 5px;
+    border: solid;
+    border-color: green;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.box3{
+    background-color: gainsboro;
+    padding: 5px;
+    border: solid;
+    border-color: lightgray;
+    margin-bottom: 300px;
+}
